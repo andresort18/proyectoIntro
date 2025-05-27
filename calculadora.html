@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="css/style.css">
+  <title>Pequeña calculadora con js</title>
+  
+</head>
+<body>
+  <header>
+    <h1>Calculadora con JavaScript</h1>
+    <p>Innovación, Tecnología y Futuro</p>
+  </header>
+
+  <nav>
+    <a href="index.html">¿Qué es ingenieria en sistemas?</a>
+  </nav>
+  <div class="content">
+    <section class="cajaCalculadora">
+    <div class="">
+      <h2>Funcionalidades en JavaScript</h2>
+      <p>
+        A continuacion veras un pequeño ejemplo de implementación de JavaScript dentro de una pagina web
+        lo que veras es una pequeña calculadora que puede Sumar, Restar, Multiplicar y Divir los numeros que tu ingreses
+        dentro de los campos vacios
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="Cajacalculadora">
+        <h2>Operaciones con 2 numeros enteros</h2>
+        <label for="num1">Numero 1:</label>
+        <input type="text" id="num1"><br><br>
+
+        <label for="num1">Numero 2:</label>
+        <input type="text" id="num2">
+        <p id="resultado"></p>
+
+        <div class="button-group">
+            <button onclick="sumar()" class="btn">Sumar</button>
+            <button onclick="restar()" class="btn">Restar</button>
+            <button onclick="dividir()" class="btn">Dividir</button>
+            <button onclick="multiplicar()" class="btn">Multiplicar</button>
+        </div>
+    </div>
+  </section>
+  </div>
+  <script src="js/calculadora.js"></script>
+</body>
+</html>
