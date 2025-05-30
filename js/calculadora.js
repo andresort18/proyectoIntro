@@ -4,7 +4,7 @@ function sumar(){
 
     var resultado = num1 + num2;
 
-    document.getElementById("resultado").innerHTML = "La suma de los dos numeros es: " + resultado;
+    document.getElementById("resultado").innerHTML = "La suma de: "+num1 "+" +num2+ "es: " + resultado;
 }
 
 function restar(){
@@ -13,7 +13,7 @@ function restar(){
 
     var resultado = num1 - num2;
 
-    document.getElementById("resultado").innerHTML = "La resta de los dos numeros es: " + resultado;
+    document.getElementById("resultado").innerHTML = "La resta de: "+num1 "-" +num2+ "es: " + resultado;
 
 }
 
@@ -23,7 +23,7 @@ function dividir(){
 
     var resultado = num1 / num2;
 
-    document.getElementById("resultado").innerHTML = "La division entre los dos numeros es: " + resultado;
+    document.getElementById("resultado").innerHTML = "La division entre: "+num1 "/" +num2+ "es: " + resultado;
 
 }
 
@@ -33,6 +33,6 @@ function multiplicar(){
 
     var resultado = num1 * num2;
 
-    document.getElementById("resultado").innerHTML = "La multiplicacion entre los dos numeros es: " + resultado;
+    document.getElementById("resultado").innerHTML = "La multiplicacion entre: "+num1 "*" +num2+ "es: " + resultado;
 
 }
